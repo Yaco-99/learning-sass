@@ -1,0 +1,146 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4em;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  border-bottom: 2px solid red;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  padding-right: 5px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: red;
+  padding: 1%;
+  color: white;
+}
+
+.second {
+  padding-left: 1%;
+  border-left: 1px solid white;
+}
+
+.second p, .second h3 {
+  margin: 0;
+  line-height: 150%;
+}
+
+.second p {
+  font-size: 12px;
+}
+
+.second a {
+  color: white;
+  text-decoration: none;
+}
+
+.second svg {
+  width: 3%;
+  height: 3%;
+}
+
+body {
+  background-color: white;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px;
+}
+
+.part {
+  background-color: #dfdfdf;
+  border-left: 0.5em solid red;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#secondPart {
+  text-align: center;
+}
+
+.column {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.column img {
+  width: 5em;
+  height: 5em;
+  border-radius: 90%;
+  margin: auto;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.column p, .column h3, .column a {
+  width: 62%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 4%;
+}
+
+.column a {
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.citation {
+  font-size: 21px;
+  margin: 25px;
+  color: #3b3b3b;
+}
+
+.citation a {
+  text-decoration: none;
+  color: purple;
+}
+
+.iframe {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

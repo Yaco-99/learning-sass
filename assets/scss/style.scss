@@ -1,0 +1,77 @@
+@import "variable";
+@import "header";
+@import "footer";
+
+body{
+    background-color: $bg-color-primary;
+}
+
+  h2 {
+    font-size: 30px;
+    margin: 20px;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px;
+  }
+  .part {
+    background-color: rgb(223, 223, 223);
+    border-left: 0.5em solid $primary-color;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10%;
+    box-sizing: border-box;
+  }
+  #secondPart {
+    text-align: $text-alignement;
+  }
+  .column {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+        img{
+            width: 5em;
+        height: 5em;
+        border-radius: 90%;
+        margin: auto;
+        display: block;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        }
+        p, h3, a{
+            width: 62%;
+        text-align: $text-alignement;
+        margin: auto;
+        margin-bottom: 4%;
+        }
+        a{
+        background-color: $primary-color;
+        border: 2px solid $secondary-text-color;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: $secondary-text-color;
+        width: 50%;
+        text-align: $text-alignement;
+        display: block;
+        margin: 0 auto;
+        }
+  }
+
+  .citation {
+    font-size: 21px;
+    margin: 25px;
+    color: rgb(59, 59, 59);
+        a{
+        text-decoration: none;
+        color: purple;
+        }
+  }
+
+  .iframe {
+    text-align: $text-alignement;
+  }
+  
