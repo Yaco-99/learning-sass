@@ -85,7 +85,7 @@ p {
           box-sizing: border-box;
 }
 
-#secondPart {
+.secondPart {
   text-align: center;
 }
 
@@ -102,7 +102,7 @@ p {
 .column img {
   width: 5em;
   height: 5em;
-  border-radius: 90%;
+  border-radius: 90.009%;
   margin: auto;
   display: block;
   margin-bottom: 1em;
@@ -110,7 +110,7 @@ p {
 }
 
 .column p, .column h3, .column a {
-  width: 62%;
+  width: 62.1118%;
   text-align: center;
   margin: auto;
   margin-bottom: 4%;
